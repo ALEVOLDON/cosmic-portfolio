@@ -99,7 +99,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 ## 👨‍💻 Author
 
 **Vladimir Rybalsky**
-- GitHub: [@yourusername](https://github.com/ALEVOLDON)
+- GitHub: [@ALEVOLDON](https://github.com/ALEVOLDON)
 - LinkedIn: [Vladimir Rybalsky](https://www.linkedin.com/in/vladimir-rybalsky/)
 
 ## ⭐ Show your support
