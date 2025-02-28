@@ -22,7 +22,39 @@ function initSpace() {
         setTimeout(() => comet.remove(), 6000);
     }, 10000);
 
-    // Music control
+    // Initialize scroll animations
+    initScrollAnimations();
+
+    // Initialize music control
+    initMusicControl();
+}
+
+function initScrollAnimations() {
+    const sections = document.querySelectorAll('.hero-section, .skill-card, .contact-section');
+    
+    sections.forEach(section => {
+        section.classList.add('fade-in-section');
+    });
+
+    function checkSections() {
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+            
+            if (sectionTop < windowHeight * 0.85) {
+                section.classList.add('is-visible');
+            }
+        });
+    }
+
+    // Check positions on load
+    checkSections();
+
+    // Check positions on scroll
+    window.addEventListener('scroll', checkSections);
+}
+
+function initMusicControl() {
     const musicControl = document.getElementById('musicControl');
     const musicIcon = document.getElementById('musicIcon');
     const bgMusic = document.getElementById('bgMusic');
