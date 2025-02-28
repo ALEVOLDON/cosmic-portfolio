@@ -6,7 +6,7 @@ A space-themed personal portfolio website featuring an interactive cosmic design
 
 ## ✨ Live Demo
 
-Check out the live version: [Cosmic Portfolio](https://your-netlify-url.netlify.app)
+Check out the live version: [Cosmic Portfolio](https://cosmic-developer.netlify.app/)
 
 ## 🚀 Features
 
@@ -99,8 +99,8 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 ## 👨‍💻 Author
 
 **Vladimir Rybalsky**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Vladimir Rybalsky](https://linkedin.com/in/yourusername)
+- GitHub: [@yourusername](https://github.com/ALEVOLDON)
+- LinkedIn: [Vladimir Rybalsky](https://www.linkedin.com/in/vladimir-rybalsky/)
 
 ## ⭐ Show your support
 
