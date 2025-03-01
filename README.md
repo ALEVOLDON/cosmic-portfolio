@@ -1,111 +1,80 @@
 # 🌌 Cosmic Portfolio
 
-An interactive space-themed portfolio website featuring animated stars, comets, and atmospheric effects.
+An interactive space-themed portfolio with dynamic effects and animations. Immerse yourself in a journey through the digital universe.
 
-## ✨ Live Demo
+## ✨ Features
 
-[View Website](https://cosmic-developer.netlify.app/)
+### 🚀 Space Effects
+- Dynamic background with space flight effect
+- Multi-layered stars with varying depth and speed
+- Pulsating nebula with gradient glow
+- Aurora with smooth animation
+- Optimized animations for smooth performance
 
-## 🚀 Features
+### 🎨 Design
+- Modern minimalist interface
+- Responsive design for all devices
+- Smooth transitions and animations
+- Carefully selected color palette
 
-- **Cosmic Design**: 
-  - Animated starfield background
-  - Flying comets effect
-  - Nebula and space effects
-  - Atmospheric background music
+### 🛠 Technical Features
+- Pure JavaScript without external dependencies
+- Optimized performance
+- Support for `prefers-reduced-motion`
+- Semantic HTML5 markup
+- Modern CSS with variables and transforms
 
-- **Modern Technologies**:
-  - Responsive design for all devices
-  - Smooth animations and transitions
-  - SEO optimization
-  - Cross-browser support
+### 🎵 Interactivity
+- Space ambient background music
+- Scroll animations
+- Interactive interface elements
 
-- **User Experience**:
-  - Intuitive navigation
-  - Pleasant visual effects
-  - Background music control
-  - Scroll animations
-
-## 🛠️ Technologies
-
-- HTML5
-- CSS3 (with modern features)
-  - CSS Grid
-  - Flexbox
-  - CSS Animations
-  - CSS Variables
-  - Backdrop Filter
-- JavaScript (ES6+)
-  - Modular structure
-  - Modern APIs
-- Font Awesome Icons
-- Google Fonts (Orbitron)
-
-## 📂 Project Structure
-
-```
-cosmic-portfolio/
-├── index.html          # Main page
-├── styles/
-│   ├── main.css       # Core styles
-│   └── space.css      # Space effects styles
-├── js/
-│   └── space.js       # JavaScript functionality
-└── audio/
-    └── space-ambient.mp3  # Background music
-```
-
-## 🎨 Design Features
-
-- **Animations**:
-  - Starfield
-  - Random comets
-  - Nebula effect
-  - Smooth element appearance
-  - Card hover effects
-
-- **Interface**:
-  - Glassmorphism
-  - Neon glow
-  - Gradient effects
-  - Custom scrollbar
-
-## 📱 Responsiveness
-
-- Desktop optimization
-- Tablet support
-- Mobile adaptation
-- Landscape orientation support
-- High DPI screen optimization
-
-## 🔧 Installation and Setup
+## 🔧 Installation
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/ALEVOLDON/cosmic-portfolio.git
 ```
 
-2. Navigate to project directory:
+2. Open the project:
 ```bash
 cd cosmic-portfolio
 ```
 
-3. Open `index.html` in browser or use local server:
-```bash
-# Using Python
-python -m http.server 8000
+3. Run through local server:
+- Use Live Server in VS Code
+- Or any other local server
 
-# Using Node.js
-npx serve
-```
+## 🌟 Usage
 
-## 🔄 Recent Updates
+- Simply open `index.html` in a modern browser
+- Enable music for full immersion
+- Scroll to view animated sections
 
-- Moved inline styles to separate CSS files
-- Improved JavaScript code organization
-- Added SEO meta tags
-- Enhanced performance optimization
-- Improved code maintainability
+## 🎯 Performance
+
+- Optimized animations using `will-change`
+- Efficient star generation with debounce
+- Automatic animation pause on inactive tab
+- Support for reduced motion mode
+
+## 📱 Compatibility
+
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
+- Latest mobile browsers
+
+## 📄 License
+
+MIT License - [details](LICENSE)
+
+## 🤝 Contact
+
+- Email: alevoldon@gmail.com
+- GitHub: [@ALEVOLDON](https://github.com/ALEVOLDON)
+- LinkedIn: [Vladimir Rybalsky](https://www.linkedin.com/in/vladimir-rybalsky/)
 
 ## 🌟 Future Improvements
 
@@ -114,22 +83,3 @@ npx serve
 - Add interactive particles
 - Create additional animations
 - Integrate API for dynamic content
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Visit the [issues page](https://github.com/ALEVOLDON/cosmic-portfolio/issues).
-
-## 👨‍💻 Author
-
-**Vladimir Rybalsky**
-- GitHub: [@ALEVOLDON](https://github.com/ALEVOLDON)
-- LinkedIn: [Vladimir Rybalsky](https://www.linkedin.com/in/vladimir-rybalsky/)
-- Email: alevoldon@gmail.com
-
-## ⭐ Support
-
-If you like this project, please give it a star! ⭐ 
